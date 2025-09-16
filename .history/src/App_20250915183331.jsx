@@ -1,5 +1,5 @@
 import Book from "./components/Book";
-import data from "../data/books.json";
+import data from "./data/books.json";
 
 function renderProducts(data) {
   return <Book {...data} />;
