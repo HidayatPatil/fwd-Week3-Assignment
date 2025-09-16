@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: antiquewhite;
+  padding: 16px;
+}
+
+.header h1 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.catalog_book {
+  display: flex;
+  width: 200px;
+  height: 300px;
+}
+
+.author_name {
+  position: absolute;
+}
+
+.footer {
+  background-color: antiquewhite;
+  padding: 16px;
+  text-align: center;
+  margin: 24px 0;
+}

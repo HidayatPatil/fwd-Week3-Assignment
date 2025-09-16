@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: antiquewhite;
+  padding: 16px;
+}
+
+.header h1 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.books {
+  width: 200px;
+  height: 300px;
+}
+
+.footer {
+  background-color: antiquewhite;
+  padding: 16px;
+  text-align: center;
+  margin: 24px 0;
+}

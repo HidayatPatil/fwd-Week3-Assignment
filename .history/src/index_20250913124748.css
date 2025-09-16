@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+}
+
+.app_body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.header {
+  background-color: rgb(230, 197, 155);
+  padding: 16px;
+}
+
+.header h1 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.book_listing {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 1em 2em;
+}
+
+.catalog_book {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative; /* anchor for absolute children */
+  width: 200px;
+  height: 300px;
+  border: 1px solid rgb(32, 32, 32);
+  border-radius: 8px;
+  overflow: hidden; /* optional, keeps children inside */
+}
+
+.book_image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  object-fit: cover;
+}
+
+.book_data {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  background-color: rgb(123, 123, 123);
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+
+.author_name {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 0;
+}
+
+.author_name p {
+  margin: 0;
+  color: aliceblue;
+}
+
+.author_name p:nth-child(2){
+  font-weight: 600;
+}
+
+.book_link {
+  background-color: rgb(5, 30, 81);
+  font-size: 18px;
+  color: aliceblue;
+  text-decoration: none;
+  width: 100%;
+  padding: 8px 0;
+  text-align: center;
+}
+
+.add_new {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 296px;
+  font-size: 26px;
+  font-weight: 600;
+  color: rgb(210, 210, 210);
+  border: 3px solid rgb(210, 210, 210);
+  border-radius: 8px;
+}
+
+.add_new:hover {
+  background-color: rgb(130, 130, 130);
+  color: aliceblue;
+}
+
+.footer {
+  background-color: rgb(4, 52, 107);
+  color: aliceblue;
+  padding: 32px;
+  text-align: center;
+}

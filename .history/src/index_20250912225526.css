@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 16px;
+}
+
+.header h1 {
+    margin: 24px 0;
+}

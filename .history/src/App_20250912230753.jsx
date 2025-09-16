@@ -1,0 +1,30 @@
+function Book(prop){
+  return (
+    <div>
+      <img src={prop.image} />
+      <div>
+        <div className="author_name">
+          <p>by</p>
+          <p>{prop.author}</p>
+        </div>
+        <a href={prop.link} className="book_link">Learn More</a>
+      </div>
+    </div>
+  )
+}
+
+function App() {
+  return (
+    <div>
+      <div className="header">
+        <h1>Book Catalog</h1>
+      </div>
+      <div className="book_listing">
+        <Book author="Hyde" link="https://www.google.com/?zx=1757743630692&no_sw_cr=1" />
+      </div>
+      <div className="footer">Hidayat Patil, 2025</div>
+    </div>
+  );
+}
+
+export default App;

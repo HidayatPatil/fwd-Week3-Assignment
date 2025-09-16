@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 16px;
+}
+
+.header h1 {
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 24px 0;
+}

@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+}
+
+.app_body {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100vh;
+}
+
+.header {
+  background-color: antiquewhite;
+  padding: 16px;
+}
+
+.header h1 {
+  text-align: center;
+  margin: 24px 0;
+}
+
+.book_listing {
+  display: flex;
+  flex-direction: row;
+}
+
+.catalog_book {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 300px;
+}
+
+.author_name {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.author_name p {
+  margin: 0;
+}
+
+.footer {
+  background-color: antiquewhite;
+  padding: 16px;
+  text-align: center;
+  margin: 24px 0;
+}
